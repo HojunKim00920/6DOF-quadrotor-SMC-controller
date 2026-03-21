@@ -172,10 +172,13 @@ run('result_plotter.m')     % Actual vs Reference comparison
 
 ## Simulation Results
 
-### 3D Trajectory Tracking
-![Trajectory Tracking](results/tracking_result.png)
+Tested on a Lemniscate-type C⁴ trajectory without external disturbances.
+Initial transient (~5 s) reflects starting from rest at the origin.
 
-### Position Tracking
+### 3D Trajectory Tracking
+![3D Trajectory](results/trajectory_3d.png)
+
+### Position Tracking (X, Y, Z)
 ![Position Tracking](results/position.png)
 
 ### Position Tracking Error

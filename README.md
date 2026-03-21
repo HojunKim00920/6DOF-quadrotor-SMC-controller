@@ -83,8 +83,8 @@ controller with INDI, while keeping the DF feedforward structure consistent acro
 3. SMC_POS_SMC_Att.slx  → Configure solver/timestep, run simulation
 4. (Simulink Scope)     → Real-time visualization during simulation
 5. excel_export_SMC.m       → Export simulation data to Excel
-6. ref_traj_plotter_SMC.m   → Visualize reference trajectory from Excel
-7. result_plotter_SMC.m     → Compare actual vs reference (position, velocity, acceleration)
+6. ref_traj_plotter.m   → Visualize reference trajectory from Excel
+7. result_plotter.m     → Compare actual vs reference (position, velocity, acceleration)
 ```
 
 ---
@@ -164,8 +164,8 @@ Exports position, velocity, and acceleration (actual + reference) to `simulation
 ### Step 5 — Visualize Results
 
 ```matlab
-run('ref_traj_plotter_SMC.m')   % Reference trajectory only
-run('result_plotter_SMC.m')     % Actual vs Reference comparison
+run('ref_traj_plotter.m')   % Reference trajectory only
+run('result_plotter.m')     % Actual vs Reference comparison
 ```
 
 ---

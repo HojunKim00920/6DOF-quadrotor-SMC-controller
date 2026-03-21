@@ -242,7 +242,7 @@ d_obs = z_in + k_ob · ω
 ├── SMC_POS_SMC_Att.slx             # Main Simulink model
 ├── Parameter_SMC.m                     # Parameters and gains
 ├── traj_generator.m                # Trajectory symbolic definition
-├── ref_pos.m / ref_vel.m / ...     # Auto-generated trajectory functions
+├── ref_pos.m / ref_vel.m / ...     # Auto-generated trajectory functions from traj_generator.m
 ├── excel_export_SMC.m                  # Export simulation data to Excel
 ├── ref_traj_plotter_SMC.m              # Visualize reference trajectory
 ├── result_plotter_SMC.m                # Actual vs reference visualization
